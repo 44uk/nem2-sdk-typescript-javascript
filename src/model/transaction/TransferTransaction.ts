@@ -116,7 +116,7 @@ export class TransferTransaction extends Transaction {
      * @memberof TransferTransaction
      */
     public get size(): number {
-        const byteSize = super.size;
+        const byteSize = this.size;
 
         // recipient and number of mosaics are static byte size
         const byteRecipient = 25;

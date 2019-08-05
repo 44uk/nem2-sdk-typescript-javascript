@@ -119,7 +119,7 @@ export class MosaicAddressRestrictionTransaction extends Transaction {
      * @memberof MosaicAddressRestrictionTransaction
      */
     public get size(): number {
-        const byteSize = super.size;
+        const byteSize = this.size;
 
         // set static byte size fields
         const byteNonce = 4;

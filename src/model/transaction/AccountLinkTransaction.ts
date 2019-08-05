@@ -88,7 +88,7 @@ export class AccountLinkTransaction extends Transaction {
      * @memberof AccountLinkTransaction
      */
     public get size(): number {
-        const byteSize = super.size;
+        const byteSize = this.size;
 
         // set static byte size fields
         const bytePublicKey = 32;

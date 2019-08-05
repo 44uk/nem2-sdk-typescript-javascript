@@ -109,7 +109,7 @@ export class LockFundsTransaction extends Transaction {
      * @memberof LockFundsTransaction
      */
     public get size(): number {
-        const byteSize = super.size;
+        const byteSize = this.size;
 
         // set static byte size fields
         const byteMosaicId = 8;

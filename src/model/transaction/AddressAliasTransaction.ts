@@ -101,7 +101,7 @@ export class AddressAliasTransaction extends Transaction {
      * @memberof AddressAliasTransaction
      */
     public get size(): number {
-        const byteSize = super.size;
+        const byteSize = this.size;
 
         // set static byte size fields
         const byteActionType = 1;

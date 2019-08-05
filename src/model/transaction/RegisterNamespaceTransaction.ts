@@ -146,7 +146,7 @@ export class RegisterNamespaceTransaction extends Transaction {
      * @memberof RegisterNamespaceTransaction
      */
     public get size(): number {
-        const byteSize = super.size;
+        const byteSize = this.size;
 
         // set static byte size fields
         const byteType = 1;

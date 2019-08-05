@@ -99,7 +99,7 @@ export class SecretProofTransaction extends Transaction {
      * @memberof SecretProofTransaction
      */
     public get size(): number {
-        const byteSize = super.size;
+        const byteSize = this.size;
 
         // hash algorithm and proof size static byte size
         const byteAlgorithm = 1;
